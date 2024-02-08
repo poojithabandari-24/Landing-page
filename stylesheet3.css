@@ -1,0 +1,98 @@
+body{font-family: 'Poppins', sans-serif !important;}
+*{padding: 0;margin: 0;box-sizing: border-box;}
+.nav1{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: crimson;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.background-image{
+    background-image: url(puppy3.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 100vh;
+   
+    }
+   .background-image h1{
+    font-size: 50px;
+   
+    font-style: italic;
+text-align: center;
+color:navy;
+
+   }
+    
+    .content{
+        font-size: 50px;
+   
+        font-style: italic;
+    text-align:left;
+
+    }
+    .abc{
+        margin: 0;
+        padding: 0;
+        
+        
+    }
+    div.main{
+        width: 300px;
+        margin: 100px auto 0px auto;
+    }
+h2{
+    text-align: left;
+    padding: 20px;
+   
+}
+.register{
+    margin-left: 148%;
+    margin-top: -93%;
+    
+    border-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+    color:black;   
+    justify-content: right; 
+}
+form#register{
+    margin: 40px;;
+
+
+}
+label{
+   
+    font-size: 18px;
+    font-style: italic;
+}
+input#name{
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: o;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+
+}
+input#submit{
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+   
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.3) ;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
